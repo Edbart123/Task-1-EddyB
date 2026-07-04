@@ -1,80 +1,35 @@
-# DecodeLabs Week 1 - Data Cleaning and Exploratory Data Analysis Project
+# Data Cleaning & Exploratory Data Analysis — DecodeLabs Week 1
 
-## Project Overview
+## Overview
+Cleaned and analyzed a retail sales dataset using Python, Pandas, and 
+Matplotlib to uncover business insights across product performance, payment 
+behavior, and order fulfillment. This project covers the full analytics 
+workflow — from raw data inspection to cleaned dataset to visualized findings.
 
-This project was completed as part of the DecodeLabs Data Science Internship Program.
+**Tools:** Python · Pandas · Matplotlib · NumPy · Jupyter Notebook · Excel
 
-The objective of this project was to clean, analyze, and prepare raw data for further analysis by identifying data quality issues, handling inconsistencies, and exploring key patterns within the dataset.
+---
 
-## Objectives
+## Business Questions Explored
+- Which products are the top sellers by revenue or volume?
+- How do customers prefer to pay — and what's the distribution?
+- What does the order status breakdown look like across the dataset?
+- Where are the data quality issues and how should they be resolved?
 
-* Load and inspect the dataset
-* Identify and handle missing values
-* Explore dataset structure and data types
-* Clean and prepare data for analysis
-* Generate visualizations to better understand the data
-* Produce insights from the cleaned dataset
+---
 
-## Tools Used
+## Key Findings
 
-* Python
-* Jupyter Notebook
-* Pandas
-* Matplotlib
-* Microsoft Excel
+### Top Selling Products
+Identified the highest-performing products by analyzing sales volume across 
+categories. Bar chart visualization reveals clear leaders in the product mix.
 
-## Project Files
+![Top Selling Products](data_visualization.png)
 
-* Dataset for Data Analytics.xlsx
-* Task_1_EddyB.ipynb
-* dataset_preview.png
-* data_cleaning_process.png
-* final_dataset.png
-* dataset_head.png
-* dataset_info.png
+### Payment Method Distribution
+Broke down transactions by payment type to understand customer payment 
+preferences across the dataset.
 
-## Skills Demonstrated
+![Payment Method Distribution](data_cleaning_process.png)
 
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Data Validation
-* Data Visualization
-* Data Preparation
-* Spreadsheet Analysis
-* Problem Solving
-
-## Project Screenshots
-
-### Dataset Preview
-
-![Dataset Preview](Task-1/dataset_preview.png)
-
-### Data Cleaning Process
-
-![Data Cleaning Process](Task-1/data_cleaning_process.png)
-
-### Final Analysis
-
-![Final Analysis](Task-1/final_dataset.png)
-
-## Results
-
-The dataset was successfully cleaned and prepared for analysis. Key steps included:
-
-* Reviewing dataset structure and column information
-* Identifying missing values
-* Cleaning and validating records
-* Exploring data distributions
-* Creating visualizations to support analysis
-
-The final dataset is ready for reporting and further analytical work.
-
-## What I Learned
-
-Through this project, I gained hands-on experience using Python and Pandas to clean and analyze data. I learned how to inspect datasets, identify potential data quality issues, prepare data for analysis, and create visualizations that communicate meaningful insights.
-
-## Author
-
-**Eddy Bartolome**
-
-DecodeLabs Data Science Internship Program
+### Order Status
